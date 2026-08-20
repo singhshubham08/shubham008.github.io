@@ -210,29 +210,30 @@
 						// Create an array of typing text
 						const typingTexts = [
 						'Co-Founder of Sysclu',
+							'Data Analyst',
 				
 						
 	
 						];
 
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
-						}
+						// // Create a function to display the typing animation for a given text
+						// function playTypingAnimation(text) {
+						// // Loop through each character and add it to the element
+						// for (let i = 0; i < text.length; i++) {
+						// 	setTimeout(() => {
+						// 	typingAnimationElement.textContent += text[i];
+						// 	}, i * 200); // Increase the delay to slow down the typing animation
+						// }
 
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
+						// // Once the animation is complete, reset the text and start over
+						// setTimeout(() => {
+						// 	typingAnimationElement.textContent = '';
+						// 	playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						// }, text.length * 200);
+						// }
 
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
+						// // Start the typing animation loop
+						// playTypingAnimation(typingTexts[0]);
 
 						</script>
 
@@ -243,7 +244,6 @@
 						<!-- <br> -->
 			            <!-- <p><a href="https://www.youtube.com/@RishabhMishraOfficial" class="btn btn-primary py-3 px-4">YouTube</a> -->
 							<p><a href="https://www.linkedin.com/in/shubham-singh-652018286" class="btn btn-primary py-3 px-4">LinkedIn</a>  
-						
 						    <p><a href="https://sysclu.in/" class="btn btn-primary py-3 px-4">Sysclu</a>
 		            </div>
 		          </div>
